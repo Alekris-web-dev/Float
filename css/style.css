@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+.wrapper {
+    /*width: 1000px;*/
+    margin: 0 auto;
+    min-height: 100%;
+}
+.left, .right {
+    float: left;
+    /*min-height: 500px;*/
+}
+.left {
+    width: 60%;
+    background: #ccc;
+}
+.right {
+    width: 40%;
+}
+.img-left {
+    float: left;
+    width: 20%;
+    height: auto;
+    height: 25%;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
